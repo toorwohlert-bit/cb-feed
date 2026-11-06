@@ -30,6 +30,15 @@ async function fetchText(url) {
 }
 
 async function loadSeries() {
+  const chinaCsv = path.join(process.cwd(), 'data', 'china.csv');
+  const globalCsv = path.join(process.cwd(), 'data', 'global.csv');
+  if (fs.existsSync(chinaCsv) && fs.existsSync(globalCsv)) {
+    const chinaRows = parseCsv(fs.readFileSync(chinaCsv, 'utf8'));
+    const globalRows = parseCsv(fs.readFileSync(globalCsv, 'utf8'));
+    const china = chinaRows.map(r => ({ month: r[0], tonnes: Number(r[1]) })).filter(x => x.month && !isNaN(x.tonnes));
+    const global = globalRows.map(r => ({ quarter: r[0], tonnes: Number(r[1]) })).filter(x => x.quarter && !isNaN(x.tonnes));
+    return { china, global, src: 'data/*.csv' };
+  }
   const cfgPath = path.join(process.cwd(), 'cb_config.json');
   if (fs.existsSync(cfgPath)) {
     const cfg = JSON.parse(fs.readFileSync(cfgPath, 'utf8'));

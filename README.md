@@ -81,3 +81,23 @@ type cb.json
 - 本仓库不抓取 PBOC/WGC 网页（它们没有稳定公开接口），只负责**汇总与发布**；
 - 数据源可以是手工维护的 `cb_config.json`，也可以是外部 CSV / 你自己的爬虫；
 - 仓库不含任何密钥，公开可读。
+
+## 七、数据文件与地址
+
+仓库里现在直接放两份 CSV，改它们即可：
+
+| 文件 | 直链 |
+| --- | --- |
+| 中国月度 | https://cdn.jsdelivr.net/gh/toorwohlert-bit/cb-feed@main/data/china.csv |
+| 全球季度 | https://cdn.jsdelivr.net/gh/toorwohlert-bit/cb-feed@main/data/global.csv |
+
+格式：`month,tonnes`、`quarter,tonnes`。
+
+官方参考（手工取数用，非 CSV）：
+
+- PBOC 官方储备资产：http://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html
+- 国家外汇管理局 官方储备资产：https://www.safe.gov.cn/safe/2026/0206/27116.html
+- 世界黄金协会 黄金需求趋势：https://www.gold.org/goldhub/research/gold-demand-trends
+- 东方财富 外汇和黄金储备（亿美元口径，仅参考）：https://data.eastmoney.com/cjsj/hjwh.html
+
+脚本优先级：`data/*.csv` → `cb_config.json` → 环境变量 CSV。

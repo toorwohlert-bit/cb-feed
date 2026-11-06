@@ -6,7 +6,7 @@
     236,
     321
   ],
-  "source": "cb_config.json",
+  "source": "data/*.csv",
   "note": "央行购金维持节奏：R2维持8/15/22/30档",
   "china": [
     {
