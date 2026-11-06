@@ -1,0 +1,43 @@
+{
+  "updated": "2026-11-06",
+  "shift": 0,
+  "chinaZeroStreak": 0,
+  "globalQ": [
+    236,
+    321
+  ],
+  "source": "cb_config.json",
+  "note": "央行购金维持节奏：R2维持8/15/22/30档",
+  "china": [
+    {
+      "month": "2026-07",
+      "tonnes": 2298.5
+    },
+    {
+      "month": "2026-08",
+      "tonnes": 2298.5
+    },
+    {
+      "month": "2026-09",
+      "tonnes": 2298.5
+    },
+    {
+      "month": "2026-10",
+      "tonnes": 2301
+    }
+  ],
+  "global": [
+    {
+      "quarter": "2026Q1",
+      "tonnes": 244
+    },
+    {
+      "quarter": "2026Q2",
+      "tonnes": 236
+    },
+    {
+      "quarter": "2026Q3",
+      "tonnes": 321
+    }
+  ]
+}
