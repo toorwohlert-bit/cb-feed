@@ -6,28 +6,44 @@
     236,
     321
   ],
-  "source": "data/*.csv",
+  "source": "SAFE https://www.safe.gov.cn/safe/2026/0206/27116.html",
   "note": "央行购金维持节奏：R2维持8/15/22/30档",
   "china": [
     {
+      "month": "2026-01",
+      "tonnes": 2307.6
+    },
+    {
+      "month": "2026-02",
+      "tonnes": 2308.5
+    },
+    {
+      "month": "2026-03",
+      "tonnes": 2313.5
+    },
+    {
+      "month": "2026-04",
+      "tonnes": 2321.6
+    },
+    {
+      "month": "2026-05",
+      "tonnes": 2331.5
+    },
+    {
+      "month": "2026-06",
+      "tonnes": 2346.4
+    },
+    {
       "month": "2026-07",
-      "tonnes": 2298.5
+      "tonnes": 2366.4
     },
     {
       "month": "2026-08",
-      "tonnes": 2298.5
+      "tonnes": 2386.6
     },
     {
       "month": "2026-09",
-      "tonnes": 2298.5
-    },
-    {
-      "month": "2026-10",
-      "tonnes": 2301
-    },
-    {
-      "month": "2026-11",
-      "tonnes": 2302.4
+      "tonnes": 2409.6
     }
   ],
   "global": [

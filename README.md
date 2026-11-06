@@ -100,4 +100,4 @@ type cb.json
 - 世界黄金协会 黄金需求趋势：https://www.gold.org/goldhub/research/gold-demand-trends
 - 东方财富 外汇和黄金储备（亿美元口径，仅参考）：https://data.eastmoney.com/cjsj/hjwh.html
 
-脚本优先级：`data/*.csv` → `cb_config.json` → 环境变量 CSV。
+脚本优先级：**SAFE 官方页面自动解析**（中国月度）→ `data/china.csv` 兜底；全球用 `data/global.csv` 或 `cb_config.json`。SAFE 页面地址可用 `SAFE_URL` 覆盖，2027 年记得换新页面。
