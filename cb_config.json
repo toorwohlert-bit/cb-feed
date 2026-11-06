@@ -1,13 +1,38 @@
 {
-  "china": [
-    { "month": "2026-07", "tonnes": 2298.5 },
-    { "month": "2026-08", "tonnes": 2298.5 },
-    { "month": "2026-09", "tonnes": 2298.5 },
-    { "month": "2026-10", "tonnes": 2301.0 }
-  ],
-  "global": [
-    { "quarter": "2026Q1", "tonnes": 244 },
-    { "quarter": "2026Q2", "tonnes": 236 },
-    { "quarter": "2026Q3", "tonnes": 321 }
-  ]
+    "china":  [
+                  {
+                      "month":  "2026-07",
+                      "tonnes":  2298.5
+                  },
+                  {
+                      "month":  "2026-08",
+                      "tonnes":  2298.5
+                  },
+                  {
+                      "month":  "2026-09",
+                      "tonnes":  2298.5
+                  },
+                  {
+                      "month":  "2026-10",
+                      "tonnes":  2301.0
+                  },
+                  {
+                      "month":  "2026-11",
+                      "tonnes":  2302.4
+                  }
+              ],
+    "global":  [
+                   {
+                       "quarter":  "2026Q1",
+                       "tonnes":  244
+                   },
+                   {
+                       "quarter":  "2026Q2",
+                       "tonnes":  236
+                   },
+                   {
+                       "quarter":  "2026Q3",
+                       "tonnes":  321
+                   }
+               ]
 }
