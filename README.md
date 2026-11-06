@@ -41,10 +41,10 @@ gh repo create cb-feed --public --source . --push
 ## 二、App 里填地址
 
 ```
-https://raw.githubusercontent.com/<你的用户名>/cb-feed/main/cb.json
+https://cdn.jsdelivr.net/gh/<你的用户名>/cb-feed@main/cb.json
 ```
 
-App：**交易规则 → 参数 → 央行数据 URL → 保存参数**。
+App：**交易规则 → 参数 → 央行数据 URL → 保存参数**。`raw.githubusercontent.com` 的 CDN 缓存经常不刷新，建议用 jsDelivr（本仓库已默认）或 raw.githack。
 
 之后每次刷新会拉取该地址；成功显示「自动 · 日期」，失败退回手动值。
 
