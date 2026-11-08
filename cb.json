@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "shift": 0,
   "chinaZeroStreak": 0,
   "globalQ": [
     236,
     321
   ],
-  "source": "SAFE https://www.safe.gov.cn/safe/2026/0206/27116.html",
+  "source": "data/china.csv",
   "note": "央行购金维持节奏：R2维持8/15/22/30档",
   "china": [
     {
