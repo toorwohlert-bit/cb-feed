@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "shift": 0,
   "chinaZeroStreak": 0,
   "globalQ": [
     236,
     321
   ],
-  "source": "data/china.csv",
+  "source": "SAFE https://www.safe.gov.cn/safe/2026/0206/27116.html",
   "note": "央行购金维持节奏：R2维持8/15/22/30档",
   "china": [
     {
@@ -44,6 +44,10 @@
     {
       "month": "2026-09",
       "tonnes": 2409.6
+    },
+    {
+      "month": "2026-10",
+      "tonnes": 2435.4
     }
   ],
   "global": [
